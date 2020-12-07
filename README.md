@@ -10,12 +10,12 @@ Leah Wasser
 
 |    |Info|
 |---:|:---|
-|Time|Wednesday, 11 December 2020 / 08:00 - 11:00 Pacific standard time|
+|Time|Dec 17th / 08:00 - 11:00 PST|
 |Workshop ID|SCIWS13|
 |Shared notes| [Google Docs](https://docs.google.com/document/d/1KrBm1FEnd7gcnscCXyWP_-NEKIDcvgsy3Gfo56pLPpE/edit?usp=sharing)|
 |Slides| [Slides](https://docs.google.com/presentation/d/1dvtxWFthZA6S1ZGs2OetkesyIB_hPEAjFn7pyo2iz6o/edit?usp=sharing)|
-|Pre-Workshop survey| [Expectations](https://forms.gle/tkMyLBx67Jdt6yePA)
-|Post-Workshop survey| [Feedback](https://forms.gle/WhDCnda618qpMywN6)
+|Pre-Workshop survey| [Expectations](https://forms.gle/tkMyLBx67Jdt6yePA)|
+|Post-Workshop survey| [Feedback](https://forms.gle/WhDCnda618qpMywN6)|
 
 ## Description
 
@@ -54,6 +54,7 @@ During the workshop, we'll introduce these topics by working through an example.
 
 Please check this page again before the workshop.
 
+- Fill out our [Pre-Workshop survey](https://forms.gle/tkMyLBx67Jdt6yePA), this helps us tune the content.
 - If you do not already have one, set up a free [GitHub account](https://github.com/).
 
 ## *After* the workshop
