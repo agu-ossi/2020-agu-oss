@@ -14,7 +14,8 @@ Leah Wasser
 |Workshop ID|SCIWS13|
 |Shared notes| [Google Docs](https://docs.google.com/document/d/1KrBm1FEnd7gcnscCXyWP_-NEKIDcvgsy3Gfo56pLPpE/edit?usp=sharing)|
 |Slides| [Slides](https://docs.google.com/presentation/d/1dvtxWFthZA6S1ZGs2OetkesyIB_hPEAjFn7pyo2iz6o/edit?usp=sharing)|
-|Feedback| [Mentimeter](https://www.menti.com/v32fyjcnvw)
+|Pre-Workshop survey| [Expectations](https://forms.gle/tkMyLBx67Jdt6yePA)
+|Post-Workshop survey| [Feedback](https://forms.gle/WhDCnda618qpMywN6)
 
 ## Description
 
