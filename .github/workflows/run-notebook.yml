@@ -1,6 +1,5 @@
 name: Execute notebook
 
-
 on:
   push:
     branches:
@@ -20,12 +19,27 @@ jobs:
 
     steps:
     - uses: actions/checkout@v2
-    - name: Set up Python ${{ matrix.python-version }}
-      uses: actions/setup-python@v2
+    - name: Setup Conda
+      uses: s-weigand/setup-conda@v1
       with:
+        update-conda: true
+        conda-channels: conda-forge
         python-version: ${{ matrix.python-version }}
+
+    - name: Install Env
+      shell: bash
+      run: |
+        python --version
+        conda env create -f environment.yml
+
+    - name: Add Papermill & View Kernels |
+      shell: bash
+      run: |
+        source activate agu-ossi-2020
+        conda install -c conda-forge papermill
+        jupyter kernelspec list
 
     - name: Run notebook
       run: |
-        pip install papermill
-        papermill notebooks/example-data-analysis.ipynb notebooks/test-run.ipynb
+        source activate agu-ossi-2020
+        papermill notebooks/example-data-analysis-2020.ipynb notebooks/test-run.ipynb
