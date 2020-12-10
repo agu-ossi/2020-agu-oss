@@ -1,0 +1,17 @@
+name: Execute notebook
+
+on: [push]
+
+jobs:
+  run:
+    runs-on: ${{ matrix.os }}
+    strategy:
+      matrix:
+        os: [ubuntu-latest]
+    env:
+      OS: ${{ matrix.os }}
+      PYTHON: '3.8'
+    - name: Run  notebook
+      run: |
+        pip install papermill
+        papermill notebooks/example-data-analysis.ipynb testme.ipynb
