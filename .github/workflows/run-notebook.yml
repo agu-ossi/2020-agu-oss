@@ -1,17 +1,31 @@
 name: Execute notebook
 
-on: [push]
 
+on:
+  push:
+    branches:
+      - '*'
+  pull_request:
+    branches:
+      - '*'
 jobs:
-  run:
+  setup-build:
+    name: Ex1 (${{ matrix.python-version }}, ${{ matrix.os }})
     runs-on: ${{ matrix.os }}
     strategy:
+      fail-fast: false
       matrix:
-        os: [ubuntu-latest]
-    env:
-      OS: ${{ matrix.os }}
-      PYTHON: '3.8'
-    - name: Run  notebook
+        os: ["ubuntu-latest"]
+        python-version: [3.8]
+
+    steps:
+    - uses: actions/checkout@v2
+    - name: Set up Python ${{ matrix.python-version }}
+      uses: actions/setup-python@v2
+      with:
+        python-version: ${{ matrix.python-version }}
+
+    - name: Run notebook
       run: |
         pip install papermill
         papermill notebooks/example-data-analysis.ipynb testme.ipynb
