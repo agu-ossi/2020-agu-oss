@@ -27,5 +27,7 @@ jobs:
 
     - name: Run notebook
       run: |
+        ls
+        pip upgrade pip
         pip install papermill
         papermill notebooks/example-data-analysis.ipynb notebooks/test-run.ipynb
