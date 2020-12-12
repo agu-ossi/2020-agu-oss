@@ -57,6 +57,7 @@ Please check this page again before the workshop.
 
 - Fill out our [Pre-Workshop survey](https://forms.gle/tkMyLBx67Jdt6yePA), this helps us tune the content.
 - If you do not already have one, set up a free [GitHub account](https://github.com/).
+- **Technical requirements**: None (well, a working Zoom, browser, and AGU login). The workshop will be based on cloud services and any operating system will work.
 
 ## *After* the workshop
 
