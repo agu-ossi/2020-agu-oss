@@ -41,5 +41,6 @@ jobs:
 
     - name: Run notebook
       run: |
+        # If you wanted you could automate this workflow to run all notebooks
         source activate agu-ossi-2020
-        papermill notebooks/example-data-analysis-2020.ipynb notebooks/test-run.ipynb
+        papermill example-data-analysis-2020.ipynb testing.ipynb
