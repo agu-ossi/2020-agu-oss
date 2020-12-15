@@ -17,3 +17,9 @@ dependencies:
   - SimPEG
   - pymatsolver
   - pytest
+  - Sphinx
+  - sphinx-autobuild
+  - sphinxcontrib-napoleon
+  - pip
+  - pip:
+    - sphinx-rtd-theme
