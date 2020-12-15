@@ -86,7 +86,7 @@
 <li class="toctree-l1"><a class="reference internal" href="../index.html">agu_oss’s documentation!</a></li>
 <li class="toctree-l1 current"><a class="current reference internal" href="#">API Documentation</a><ul>
 <li class="toctree-l2"><a class="reference internal" href="#utilities">Utilities</a></li>
-<li class="toctree-l2"><a class="reference internal" href="#cleaning">Cleaning</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#module-agu_oss.clean_data">Cleaning</a></li>
 </ul>
 </li>
 </ul>
@@ -161,11 +161,12 @@ extension to import the docstrings from a Python module into this documentation
 page.</p>
 <div class="section" id="utilities">
 <h2>Utilities<a class="headerlink" href="#utilities" title="Permalink to this headline">¶</a></h2>
-<p>First, we can pull in the module level docstring for <code class="xref py py-class docutils literal notranslate"><span class="pre">agu_oss.utilities</span></code>
+<p>First, we can pull in the module level docstring for <a class="reference internal" href="#module-agu_oss.utilities" title="agu_oss.utilities"><code class="xref py py-class docutils literal notranslate"><span class="pre">agu_oss.utilities</span></code></a>
 with the following command:</p>
 <div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="o">..</span> <span class="n">automodule</span><span class="p">::</span> <span class="n">agu_oss</span><span class="o">.</span><span class="n">utilities</span>
 </pre></div>
 </div>
+<span class="target" id="module-agu_oss.utilities"></span><p>A few helper utilities.</p>
 <p>Then we can auto include the dosctrings for specific functions in that module
 such as:</p>
 <div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="o">..</span> <span class="n">autofunction</span><span class="p">::</span> <span class="n">agu_oss</span><span class="o">.</span><span class="n">divide</span>
@@ -173,9 +174,63 @@ such as:</p>
 <span class="o">..</span> <span class="n">autofunction</span><span class="p">::</span> <span class="n">agu_oss</span><span class="o">.</span><span class="n">moving_average</span>
 </pre></div>
 </div>
+<dl class="py function">
+<dt id="agu_oss.divide">
+<code class="sig-prename descclassname">agu_oss.</code><code class="sig-name descname">divide</code><span class="sig-paren">(</span><em class="sig-param"><span class="n">a</span></em>, <em class="sig-param"><span class="n">b</span></em><span class="sig-paren">)</span><a class="headerlink" href="#agu_oss.divide" title="Permalink to this definition">¶</a></dt>
+<dd><p>Divide two numbers.</p>
+<dl class="field-list simple">
+<dt class="field-odd">Parameters</dt>
+<dd class="field-odd"><ul class="simple">
+<li><p><strong>a</strong> (<em>int</em><em>, </em><em>float</em>) – The dividend</p></li>
+<li><p><strong>b</strong> (<em>int</em><em>, </em><em>float</em>) – The divisor</p></li>
+</ul>
+</dd>
+<dt class="field-even">Returns</dt>
+<dd class="field-even"><p><strong>int, float</strong></p>
+</dd>
+<dt class="field-odd">Return type</dt>
+<dd class="field-odd"><p>the quotient</p>
+</dd>
+</dl>
+</dd></dl>
+
+<dl class="py function">
+<dt id="agu_oss.moving_average">
+<code class="sig-prename descclassname">agu_oss.</code><code class="sig-name descname">moving_average</code><span class="sig-paren">(</span><em class="sig-param"><span class="n">data</span></em>, <em class="sig-param"><span class="n">window_size</span></em><span class="sig-paren">)</span><a class="headerlink" href="#agu_oss.moving_average" title="Permalink to this definition">¶</a></dt>
+<dd><p>Calculate a moving average over 1D data using the given window size.</p>
+<dl class="field-list simple">
+<dt class="field-odd">Parameters</dt>
+<dd class="field-odd"><ul class="simple">
+<li><p><strong>data</strong> (<em>numpy.ndarray</em>) – Data that we will compute the moving average over</p></li>
+<li><p><strong>window_size</strong> (<em>int</em>) – width of the window we use to compute the moving average</p></li>
+</ul>
+</dd>
+</dl>
+</dd></dl>
+
 </div>
-<div class="section" id="cleaning">
-<h2>Cleaning<a class="headerlink" href="#cleaning" title="Permalink to this headline">¶</a></h2>
+<div class="section" id="module-agu_oss.clean_data">
+<span id="cleaning"></span><h2>Cleaning<a class="headerlink" href="#module-agu_oss.clean_data" title="Permalink to this headline">¶</a></h2>
+<p>A second sample module to clean data.</p>
+<dl class="py function">
+<dt id="agu_oss.open_and_clean">
+<code class="sig-prename descclassname">agu_oss.</code><code class="sig-name descname">open_and_clean</code><span class="sig-paren">(</span><em class="sig-param"><span class="n">url</span></em><span class="sig-paren">)</span><a class="headerlink" href="#agu_oss.open_and_clean" title="Permalink to this definition">¶</a></dt>
+<dd><p>A function that is designed to clean up  data downloaded  from
+the Berkely earth website. This function assumes that your data
+are always in the same format.</p>
+<dl class="field-list simple">
+<dt class="field-odd">Parameters</dt>
+<dd class="field-odd"><p><strong>url</strong> (<em>string</em>) – Path to the data  from the Berkeley earth  website</p>
+</dd>
+<dt class="field-even">Returns</dt>
+<dd class="field-even"><p></p>
+</dd>
+<dt class="field-odd">Return type</dt>
+<dd class="field-odd"><p>Pandas.DataFrame</p>
+</dd>
+</dl>
+</dd></dl>
+
 </div>
 </div>
 
