@@ -1,6 +1,11 @@
 name: "Build Documentation"
 on:
-  - pull_request
+  push:
+    branches:
+      - '*'
+  pull_request:
+    branches:
+      - '*'
 
 jobs:
   docs:
