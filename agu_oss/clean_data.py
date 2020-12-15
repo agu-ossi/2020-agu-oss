@@ -4,7 +4,7 @@ import pandas as pd
 
 def open_and_clean(url):
     """
-    A function that is designed to clean up  data downloaded  from 
+    A function that is designed to clean up  data downloaded  from
     the Berkely earth website. This function assumes that your data
     are always in the same format.
 

@@ -7,7 +7,7 @@ Material for the workshop at the AGU 2020 Fall Meeting.
 **Conveners:**
 Rene Gassmoeller,
 Lindsey Justine Heagy,
-Christopher Bane Sullivan,
+C. Bane Sullivan,
 Leah Wasser
 
 |    |Info|
@@ -28,9 +28,9 @@ The open-source community has established modern best-practices for developing r
 
 ## Learning Objectives
 
-Our aim with this workshop is for participants to: 
+Our aim with this workshop is for participants to:
 
-1. Learn about modern best-practices for developing, testing, documenting, and publishing research software that promote accessibility, reusability, and reproducibility. 
+1. Learn about modern best-practices for developing, testing, documenting, and publishing research software that promote accessibility, reusability, and reproducibility.
 2. Gain hands-on experience with open-source software development tools available to researchers including Jupyter (for sharing), git (versioning), GitHub (collaboration), ReadTheDocs (documentation), and Travis CI (testing).
 3. Learn basic concepts of software project management like the life cycle of scientific software, defining a target audience, developing a project mission and vision, building a welcoming community, and approaching scientists uncomfortable with sharing their research software.
 
@@ -77,7 +77,7 @@ guides to extend and deepen some of the taught concepts.
   - [The Hitchhiker's Guide to packaging](https://the-hitchhikers-guide-to-packaging.readthedocs.io/en/latest/)
 - **[Software licensing](https://choosealicense.com/)**
 - **[Code of Conduct](https://www.contributor-covenant.org/)**
-  
+
 ### Alternatives to the tools presented
 
 - **Version control**

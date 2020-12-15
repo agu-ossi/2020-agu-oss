@@ -1,4 +1,4 @@
-"""A sample module."""
+"""A few helper utilities."""
 
 import numpy as np
 
@@ -23,16 +23,16 @@ def divide(a, b):
 
 def moving_average(data, window_size):
     """
-    Calculate a moving average over 1D data using the given window size. 
-    
+    Calculate a moving average over 1D data using the given window size.
+
     Parameters
     ----------
     data : numpy.ndarray
            Data that we will compute the moving average over
-    
-    window_size : int 
+
+    window_size : int
                   width of the window we use to compute the moving average
-        
+
     """
     average = np.full(data.size, np.nan)
     half_window = window_size // 2
