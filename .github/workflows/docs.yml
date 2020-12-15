@@ -12,9 +12,28 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v1
-      - uses: ammaraskar/sphinx-action@master
+      - name: Setup Conda
+        uses: s-weigand/setup-conda@v1
         with:
-          docs-folder: "docs/"
+          update-conda: true
+          conda-channels: conda-forge
+          python-version: 3.8
+      - name: Install Env
+        shell: bash
+        run: |
+          python --version
+          conda env create -f environment.yml
+      - name: Install Our Package
+        shell: bash
+        run: |
+          source activate agu-ossi-2020
+          pip install -e .
+      - name: Build Documentation
+        shell: bash
+        run: |
+          source activate agu-ossi-2020
+          cd docs/
+          make html
       - uses: actions/upload-artifact@v2
         with:
           name: html
