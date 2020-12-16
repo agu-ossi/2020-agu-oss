@@ -1,0 +1,121 @@
+08:58:13	 From Leah Wasser (she/her) Earth Lab / earthdatascience.org / pyOpenSci : Welcome  everyone!!
+08:58:28	 From Leah Wasser (she/her) Earth Lab / earthdatascience.org / pyOpenSci : https://github.com/agu-ossi/2020-agu-oss
+09:01:53	 From Serge Sambolian : Is the workshop recorded and will it be available later ? (need to assist as a panelist in another session)
+09:01:54	 From Leah Wasser (she/her) Earth Lab / earthdatascience.org / pyOpenSci : Welcome everyone from snowy Colorado!!
+09:02:10	 From Leah Wasser (she/her) Earth Lab / earthdatascience.org / pyOpenSci : For those just  joining  — this s the GitHub  repo  we w ill use - https://github.com/agu-ossi/2020-agu-oss
+09:02:16	 From Leah Wasser (she/her) Earth Lab / earthdatascience.org / pyOpenSci : the  workshop will be recorded by agues!
+09:02:21	 From Leah Wasser (she/her) Earth Lab / earthdatascience.org / pyOpenSci : Oops **AGU
+09:02:27	 From Serge Sambolian : Thank you :D
+09:02:48	 From Leah Wasser (she/her) Earth Lab / earthdatascience.org / pyOpenSci : of course!!
+09:04:50	 From Leah Wasser (she/her) Earth Lab / earthdatascience.org / pyOpenSci : For those who just  joined — https://github.com/agu-ossi/2020-agu-oss
+09:11:43	 From Mousumi Ghosh : Will the slides of this presentation be made available to us?
+09:11:49	 From Leah Wasser (she/her) Earth Lab / earthdatascience.org / pyOpenSci : yes!
+09:12:26	 From Leah Wasser (she/her) Earth Lab / earthdatascience.org / pyOpenSci : All links are h ere in the  readme - https://github.com/agu-ossi/2020-agu-oss
+09:12:51	 From Leah Wasser (she/her) Earth Lab / earthdatascience.org / pyOpenSci : and h ere is the  link tot he slides in case ou want to follow along  now - https://docs.google.com/presentation/d/1dvtxWFthZA6S1ZGs2OetkesyIB_hPEAjFn7pyo2iz6o/edit#slide=id.p
+09:14:32	 From Sanjukta : Can we download the presentation from that link?
+09:14:38	 From Mousumi Ghosh : Thankyou
+09:14:55	 From Leah Wasser (she/her) Earth Lab / earthdatascience.org / pyOpenSci : Yup -  go to  file —> download
+09:14:59	 From Leah Wasser (she/her) Earth Lab / earthdatascience.org / pyOpenSci : in the google slides interface
+09:15:07	 From Leah Wasser (she/her) Earth Lab / earthdatascience.org / pyOpenSci : @mousumi  you’re welcome!
+09:16:11	 From Sanjukta : Thanks :)
+09:16:24	 From Leah Wasser (she/her) Earth Lab / earthdatascience.org / pyOpenSci : @Sanjukta of course!
+09:17:34	 From Lindsey Heagy : If you are interested in contributing to shared notes, we have a document for everyone here: https://docs.google.com/document/d/1KrBm1FEnd7gcnscCXyWP_-NEKIDcvgsy3Gfo56pLPpE/edit#heading=h.rqb5s4drunt3
+09:27:22	 From Leah Wasser (she/her) Earth Lab / earthdatascience.org / pyOpenSci : for t hose  who  just  joined  — this is the  repo we are  using  — https://github.com/agu-ossi/2020-agu-oss all links to slides and  notes and such are located in the readme file!  Welcome!
+09:35:23	 From Rene Gassmoeller : https://github.com/agu-ossi/2020-agu-oss
+09:39:09	 From Sanjukta : Are you running the code in the hub? or just the code body?
+09:39:29	 From Bane Sullivan (Kitware) : The notebook on GitHub is just a preview
+09:40:06	 From Bane Sullivan (Kitware) : We can run the notebook interactivity here: https://mybinder.org/v2/gh/agu-ossi/2020-agu-oss/main
+09:45:48	 From Cécile Coulon : is there a risk to overwrite files when making the modifications?
+09:46:21	 From Ed Santilli : You don't step on each other's toes while working.
+09:46:58	 From Rene Gassmoeller : github = cloud backup
+09:47:02	 From Sophie Goliber (she/her) : Backups
+09:47:18	 From Bane Sullivan (Kitware) : The risk is greatly minimized with a version control system like Git as the state of all files is tracked throughout time. Even if you delete a file, it still exists in the history.
+09:47:37	 From Jacob Schaperow : Are there file limits? Do we worry about these?
+09:48:04	 From Ed Santilli : What are the practical differences between forking and cloning?
+09:48:16	 From Rene Gassmoeller : I think there is a limit of 50 MB per file, and a total repository size of ~1 GB or so (not sure). This is meant for source code, not large data
+09:48:19	 From Bane Sullivan (Kitware) : There are general file size limits: 50MB typically. Though there is such a thing as Git Large File Storage. But there is no limit to the number of files you can have
+09:49:18	 From Bane Sullivan (Kitware) : Cloning is making a local copy on your computer. Forking is adding a copy (remote) to your GitHub account
+09:49:52	 From Ed Santilli : Thank you, Bane.
+09:50:22	 From Leah Wasser (she/her) Earth Lab / earthdatascience.org / pyOpenSci : https://github.com/lwasser/2020-agu-oss/blob/main/agu_oss/clean_data.py
+09:50:30	 From Ed Santilli : We always clone to collaborate. But now that I think of it, I guess forking prevents the need to give everyone write access. Correct?
+09:50:48	 From Bane Sullivan (Kitware) : That is exactly correct.
+09:50:50	 From Ed Santilli : *write access to the main repo
+09:50:56	 From Ed Santilli : great. Thanks
+09:58:05	 From Ed Santilli : Does the testing only work on interpreted languages?
+09:58:28	 From Bane Sullivan (Kitware) : FYI, the slides are here: https://docs.google.com/presentation/d/1dvtxWFthZA6S1ZGs2OetkesyIB_hPEAjFn7pyo2iz6o/edit?usp=sharing
+09:58:38	 From Cécile Coulon : Can the main owner of the repository see the modifications you made on your forked repository? Or can he only see if you do a pull request?
+09:59:14	 From Sanjukta : Thanks Leah. Thanks for introducing to git :)
+09:59:21	 From Bane Sullivan (Kitware) : Typically those changes are only visible once you make a pull request
+09:59:40	 From Bane Sullivan (Kitware) : Testing can work for any language, not just interpreted languages like Python
+10:00:28	 From Leah Wasser (she/her) Earth Lab / earthdatascience.org / pyOpenSci : @cecile  bane is exactly correct! But  if the main owner follows your repo they could see when you make changes  and also  if your repo is public they  could go to your repo to see what you are doing
+10:00:31	 From Leah Wasser (she/her) Earth Lab / earthdatascience.org / pyOpenSci : Given this is all   open!
+10:02:02	 From Ed Santilli : Bane, even a project with C++/Fortran? Does it need to have a makefile? I have a lot of questions here. Is there somewhere I can read about this?
+10:02:47	 From Cécile Coulon : Thank you for your answers!
+10:02:48	 From Leah Wasser (she/her) Earth Lab / earthdatascience.org / pyOpenSci : of course @sanjukta !!
+10:03:27	 From Bane Sullivan (Kitware) : Ed, yes. You’ll have to do a bit more work to get that running for C++ than Python but it is absolutely possible! It is incredibly common to have tests for software regardless of language. I will see if I can find a resource for you shortly….
+10:04:54	 From Rene Gassmoeller : Ed, we will also have a dedicated part about testing in the next block. Also I am developing a C++ code including tests. We use a tool called ctest (part of the cmake software) combined with the same github actions we are using in this tututorial
+10:05:44	 From Ed Santilli : Great. Thank you everyone.
+10:05:52	 From Malambo : No sound?
+10:06:19	 From Ed Santilli : I have kids running around, etc. So I may be in and out. But I will rewatch the recording tonight to catch what I miss.
+10:06:21	 From Ed Santilli : Thank you
+10:06:35	 From Leah Wasser (she/her) Earth Lab / earthdatascience.org / pyOpenSci : No worries Ed! We understand!
+10:18:32	 From Leah Wasser (she/her) Earth Lab / earthdatascience.org / pyOpenSci : @malambo are you having audio  issues or  can you hear things ok?  I do hear the audio so I wanted to ensure you can too
+10:36:25	 From Leah Wasser (she/her) Earth Lab / earthdatascience.org / pyOpenSci : feel free  to add comments to the chat if you can’t  unmute!
+10:38:13	 From Rene Gassmoeller : if you want to follow along: https://mybinder.org/v2/gh/agu-ossi/2020-agu-oss/main
+10:38:27	 From Leah Wasser (she/her) Earth Lab / earthdatascience.org / pyOpenSci : Some of you did an excellent job of breaking things!! Go team!
+10:56:50	 From Vinícius Chagas : When testing, should we worry about optimizing the code? Or only if it's running correctly? When should we care about optimization?
+10:57:58	 From Roberto Ortega : In a test, is there a difference when the code breaks (e.g. stack overflow…) and when it actually does not pass??…
+10:58:03	 From Leah Wasser (she/her) Earth Lab / earthdatascience.org / pyOpenSci : Huh  that’s an interesting question - might be good to pose  it to the group but they are  separate  and related
+10:58:09	 From Leah Wasser (she/her) Earth Lab / earthdatascience.org / pyOpenSci : testing  — make sure the code runs as expected
+10:58:28	 From Leah Wasser (she/her) Earth Lab / earthdatascience.org / pyOpenSci : Optimization make sure the code is  efficient. Often tests use data subsets to minimize  run time
+10:59:13	 From Leah Wasser (she/her) Earth Lab / earthdatascience.org / pyOpenSci : I’ll unmute in a minute to ask Lindsey to chat about this  too!
+10:59:59	 From Rene Gassmoeller : @Roberto: Both will break the test, but in a good test framework you will see if it crashed or gave the wrong answer
+10:59:59	 From Leah Wasser (she/her) Earth Lab / earthdatascience.org / pyOpenSci : Roberto I’m trying to follow  your  question. A test  could fail  for   different  reasons - sometimes it fails because the code has broken
+11:00:24	 From Leah Wasser (she/her) Earth Lab / earthdatascience.org / pyOpenSci : Ahh thanks  Rene :)
+11:00:56	 From Rene Gassmoeller : I think Bane will talk about test frameworks next (at the example of github actions)
+11:11:45	 From Leah Wasser (she/her) Earth Lab / earthdatascience.org / pyOpenSci : This is a great  example.  So here you add a build in  test to raise and error in your code - and  if you want you can then write an  actual external test to check that when a function is given something t hat isn’t a list or a tray, that it fails gracefully with a  useful  message - great for  usability
+11:13:40	 From Leah Wasser (she/her) Earth Lab / earthdatascience.org / pyOpenSci : sorry my typing is terrible today :)
+11:17:36	 From Vinícius Chagas : Thank you!
+11:19:36	 From Leah Wasser (she/her) Earth Lab / earthdatascience.org / pyOpenSci : https://docs.google.com/presentation/d/1dvtxWFthZA6S1ZGs2OetkesyIB_hPEAjFn7pyo2iz6o/edit#slide=id.g75d8cb0173_2_90
+11:19:41	 From Leah Wasser (she/her) Earth Lab / earthdatascience.org / pyOpenSci : ^^^ slides!
+11:20:10	 From Leah Wasser (she/her) Earth Lab / earthdatascience.org / pyOpenSci : We are  here now - https://docs.google.com/presentation/d/1dvtxWFthZA6S1ZGs2OetkesyIB_hPEAjFn7pyo2iz6o/edit#slide=id.g7a995a9710_0_73
+11:24:11	 From Leah Wasser (she/her) Earth Lab / earthdatascience.org / pyOpenSci : here is  where bane is working  - https://github.com/agu-ossi/2020-agu-oss/tree/main/.github/workflows
+11:25:12	 From Leah Wasser (she/her) Earth Lab / earthdatascience.org / pyOpenSci : <note - you could automate this workflow to grab any and all notebooks -  I manually coded  this> you could also add additional python  versions and OS’s to this build  easily so it’s running your notebook on  many different operating systems and python versions
+11:30:06	 From Leah Wasser (she/her) Earth Lab / earthdatascience.org / pyOpenSci : https://github.com/marketplace/actions/lintly-flake8
+11:31:58	 From Cécile Coulon : There is a GitHub repository I’ve forked to make several small modifications. My modifications may be useful to others, but my level of coding is a lot less elegant than the main owners, so I’m hesitant to do a pull request. In these cases do you think it’s still ok to do a pull request?
+11:33:13	 From Rene Gassmoeller : This is a great question. Lets discuss it in the whole group later. In short: If they have a contributing policy that states they are happy about contributions this is absolutely ok.
+11:34:10	 From Allison Chartrand : yes, very interested in documentation!
+11:38:17	 From Cécile Coulon : thanks!
+11:39:47	 From Ed Santilli : Does it support Latex?
+11:41:54	 From Cécile Coulon : How do you get your README.md to show on the ‘home page’ of agu-ossi/2020-agu-oss? Is it done automatically?
+11:42:15	 From Leah Wasser (she/her) Earth Lab / earthdatascience.org / pyOpenSci : https://www.sphinx-doc.org/en/master/latex.html
+11:42:29	 From Leah Wasser (she/her) Earth Lab / earthdatascience.org / pyOpenSci : There are many modules that extend th e functionality of  sphinx
+11:42:38	 From Ed Santilli : Great!
+11:42:40	 From Ed Santilli : ty
+11:42:41	 From Leah Wasser (she/her) Earth Lab / earthdatascience.org / pyOpenSci : but  that may be  built in!
+11:43:01	 From Leah Wasser (she/her) Earth Lab / earthdatascience.org / pyOpenSci : @Cecile that is an   automatic  function  o f  GitHub
+11:43:12	 From Leah Wasser (she/her) Earth Lab / earthdatascience.org / pyOpenSci : If you have a README.md file it will render on the  home page
+11:45:05	 From Aatish Anshuman : Does sphinx creates a website for example in readthedocs or somewhere?
+11:45:12	 From Cécile Coulon : thank you @Leah!
+11:45:18	 From Leah Wasser (she/her) Earth Lab / earthdatascience.org / pyOpenSci : of course  Cecile
+11:45:35	 From Leah Wasser (she/her) Earth Lab / earthdatascience.org / pyOpenSci : You have many options when  using  sphinx - you can setup an  auto build using  readthedocs
+11:45:52	 From Bane Sullivan (Kitware) : Sphinx creates a rich HTML documentation site that you can publish anywhere. In our example we use Github Pages to publish it
+11:46:09	 From Bane Sullivan (Kitware) : But ReadTheDocs is another service you can publish to
+11:46:48	 From Aatish Anshuman : Thanks. what is GitHub.io ? Is it website hosting service ?
+11:46:58	 From Leah Wasser (she/her) Earth Lab / earthdatascience.org / pyOpenSci : ^^ yes what bane said - if your environment is complex, making sure it  runs can  be tricky  on  read  the docs so running it  via actions is nice
+11:47:19	 From Bane Sullivan (Kitware) : GitHub.io is a domain for publishing static websites like documentation from GitHub repositories for free
+11:47:44	 From Leah Wasser (she/her) Earth Lab / earthdatascience.org / pyOpenSci : there’s a new discussion feature too!
+11:48:06	 From Aatish Anshuman : Great! Thanks!
+11:48:25	 From Leah Wasser (she/her) Earth Lab / earthdatascience.org / pyOpenSci : I just turned on discussions  ON in our repo!
+11:52:53	 From Aatish Anshuman : Just found it :)
+11:55:28	 From Bane Sullivan (Kitware) : https://github.com/agu-ossi/2020-agu-oss/discussions
+11:57:14	 From Leah Wasser (she/her) Earth Lab / earthdatascience.org / pyOpenSci : https://github.com/agu-ossi/2020-agu-oss/pull/26
+11:59:10	 From Leah Wasser (she/her) Earth Lab / earthdatascience.org / pyOpenSci : https://docs.google.com/forms/d/e/1FAIpQLSeaO0QIwBquK_wYur5-ko0UgrhCwu4SBsofwEzo_4rGzcqVXA/viewform
+11:59:24	 From Leah Wasser (she/her) Earth Lab / earthdatascience.org / pyOpenSci : ^^^ the survey if you have a minute to take it!
+11:59:46	 From Biljana Music : Thank you.
+11:59:49	 From Kelly Kapsar (she/her) : Thank you! This was extremely helpful!
+11:59:51	 From Peter Makus : Thanks!
+11:59:53	 From Cécile Coulon : thank you!
+11:59:56	 From Facu Sapienza : Thank you!
+11:59:56	 From Ed Santilli : Thank you!
+11:59:57	 From Xin Zhou : Thank you!
