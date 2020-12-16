@@ -1,6 +1,7 @@
 """A second sample module to clean data."""
 
 import pandas as pd
+import numpy as np
 
 def open_and_clean(url):
     """
