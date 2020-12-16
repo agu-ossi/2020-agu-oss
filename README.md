@@ -15,7 +15,7 @@ Leah Wasser
 |Time|Dec 16th / 08:00 - 11:00 PST|
 |Workshop ID|SCIWS13|
 |Workshop access| [Program](https://agu.confex.com/agu/fm20/meetingapp.cgi/Session/103714)|
-|Zoom link|you should have received an email|
+|Zoom link| [Click here](https://zoom.us/j/98425824758?pwd=YzlCUERrTzR2THZPUEc2Tjc4bHlXZz09) |
 |Shared notes| [Google Docs](https://docs.google.com/document/d/1KrBm1FEnd7gcnscCXyWP_-NEKIDcvgsy3Gfo56pLPpE/edit?usp=sharing)|
 |Slides| [Slides](https://docs.google.com/presentation/d/1dvtxWFthZA6S1ZGs2OetkesyIB_hPEAjFn7pyo2iz6o/edit?usp=sharing)|
 |Pre-Workshop survey| [Expectations](https://forms.gle/tkMyLBx67Jdt6yePA)|
