@@ -12,7 +12,7 @@ Leah Wasser
 
 |    |Info|
 |---:|:---|
-|Time|Dec 17th / 08:00 - 11:00 PST|
+|Time|Dec 16th / 08:00 - 11:00 PST|
 |Workshop ID|SCIWS13|
 |Workshop access| [Program](https://agu.confex.com/agu/fm20/meetingapp.cgi/Session/103714)|
 |Zoom link|you should have received an email|
