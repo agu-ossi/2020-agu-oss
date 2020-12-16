@@ -16,7 +16,6 @@ def open_and_clean(url):
     Returns
     -------
     Pandas.DataFrame
-
     """
 
     temp_df = pd.read_csv(url,
