@@ -2,6 +2,9 @@
 
 import pandas as pd
 
+BAD CODE GOES HERE!
+
+
 def open_and_clean(url):
     """
     A function that is designed to clean up  data downloaded  from
