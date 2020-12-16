@@ -35,4 +35,4 @@ def open_and_clean(url):
     # Finally create a date time column
     temp_df["date"] = pd.to_datetime(temp_df[['Year', 'Month', 'Day']])
 
-    return temp_df.set_index("date")
+    return temp_df.set_index("date") # this is a new comment
