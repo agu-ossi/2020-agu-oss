@@ -33,6 +33,6 @@ def open_and_clean(url):
     temp_df = temp_df.assign(Day=1)
 
     # Finally create a date time column
-    temp_df["date"] = pd.to_datetime(temp_df[['Year', 'Month', 'Day']])
+    temp_df["date"] = pd.to_dddddddddddddddatetime(temp_df[['Year', 'Month', 'Day']])
 
     return temp_df.set_index("date")
