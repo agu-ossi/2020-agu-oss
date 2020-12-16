@@ -19,7 +19,7 @@ def open_and_clean(url):
 
     """
 
-    temp_df = pd.read_csv(url,
+    temp_df = pd.reaaaadddd_csv(url,
                           skiprows=69,
                           delim_whitespace=True)
 
