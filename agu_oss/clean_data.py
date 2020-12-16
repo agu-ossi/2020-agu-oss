@@ -23,7 +23,7 @@ def open_and_clean(url):
                           skiprows=69,
                           delim_whitespace=True)
 
-    all_cols = temp_df.columns[1:]
+    all_cols = temp_df.columns[2:]
 
     # Remove the last row
     temp_df = temp_df.iloc[:, :-1]
