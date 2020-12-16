@@ -12,11 +12,9 @@ def open_and_clean(url):
     ----------
     url : string
         Path to the data  from the Berkeley earth  website
-
     Returns
     -------
     Pandas.DataFrame
-
     """
 
     temp_df = pd.read_csv(url,
