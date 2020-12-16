@@ -19,6 +19,9 @@ def open_and_clean(url):
 
     """
 
+    print("Starting data cleanup.")
+    print(":)")
+    
     temp_df = pd.read_csv(url,
                           skiprows=69,
                           delim_whitespace=True)
