@@ -1,5 +1,11 @@
-name: "Lint All The Things"
-on: [pull_request, push]
+name: Lint All The Things
+on:
+  push:
+    branches:
+      - '*'
+  pull_request:
+    branches:
+      - '*'
 
 jobs:
   lint:
