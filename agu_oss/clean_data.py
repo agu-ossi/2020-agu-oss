@@ -20,7 +20,7 @@ def open_and_clean(url):
     """
 
     temp_df = pd.read_csv(url,
-                          skiprows=69,
+                          skiprows = 69,
                           delim_whitespace=True)
 
     all_cols = temp_df.columns[1:]
