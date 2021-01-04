@@ -20,6 +20,7 @@ Leah Wasser
 |Slides| [Slides](https://docs.google.com/presentation/d/1dvtxWFthZA6S1ZGs2OetkesyIB_hPEAjFn7pyo2iz6o/edit?usp=sharing)|
 |Pre-Workshop survey| [Expectations](https://forms.gle/tkMyLBx67Jdt6yePA)|
 |Post-Workshop survey| [Feedback](https://forms.gle/WhDCnda618qpMywN6)|
+|Recording| [Zoom Recording](https://youtu.be/bAoBa1DGwAc)|
 
 ## Description
 
